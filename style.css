@@ -1,0 +1,67 @@
+html, body, .contenedor, .escena{
+    height: 100%;
+
+}
+.contenerdor{
+    background-color: #333;
+}
+.escena{
+    display: block;
+    background-color: red;
+    position: relative;
+}
+#presentacion{
+    display: block;
+    background-color: blueviolet;
+}
+.contenido{
+    background-color: rgba(0,0,0,.7);
+    padding: 1em;
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#presentacion{
+    background-image: url('imagenes/rio-cabriel-web.jpg');
+    background-size: cover;
+}
+#alarcon{
+    background-image: url('imagenes/alarcon-web.jpg');
+    background-size: cover;
+}
+
+#belmonte{
+    background-image: url('imagenes/belmonte-web.jpg');
+    background-size: cover;
+}
+#sisante{
+    background-image: url('imagenes/sisante-web.jpg');
+    background-size: cover;
+}
+#sanclemente{
+    background-image: url('imagenes/sanclemente-web.jpg');
+    background-size: cover;
+}
+#huete{
+    background-image: url('imagenes/huete-web.jpg');
+    background-size: cover;
+}
+#contraportada{
+    background-image: url('imagenes/VISITANOS-web.png');
+    background-size: cover;
+}
+
+#audio{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 4em;
+    color: orangered;
+    cursor: pointer;
+}
